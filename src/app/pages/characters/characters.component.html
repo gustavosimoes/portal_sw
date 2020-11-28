@@ -1,1 +1,6 @@
 <app-header></app-header>
+<pre *ngIf="characters"> {{(characters|async)|json}} </pre>
+
+<!-- <ul class="list-group">
+    <li ngIf="characters.lenght" ngFor="let character of characters" class="list-group-item active">{{ character.name }}</li>
+</ul> -->

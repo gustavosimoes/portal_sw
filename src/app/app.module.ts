@@ -9,6 +9,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { StarshipsComponent } from './pages/starships/starships.component';
 import { PlanetsComponent } from './pages/planets/planets.component';
 
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +22,8 @@ import { PlanetsComponent } from './pages/planets/planets.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
