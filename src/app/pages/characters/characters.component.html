@@ -1,6 +1,21 @@
 <app-header></app-header>
-<pre *ngIf="characters"> {{(characters|async)|json}} </pre>
 
-<!-- <ul class="list-group">
-    <li ngIf="characters.lenght" ngFor="let character of characters" class="list-group-item active">{{ character.name }}</li>
-</ul> -->
+<div class="container">
+    <br><br>
+    <div class="title">
+        <h3 style="color: #120e52">Selecione um Personagem</h3>
+        <h4 style="color: #120e52">Para Informações</h4>
+    </div>
+    <br>
+    <ul class="list-group">
+        <a *ngFor="let character of characters" class="list-group-item list-group-item-dark"
+            href={{character.url}}>{{ character.name }}</a>
+    </ul>
+    <nav aria-label="Page navigation example">
+        <br>
+        <ul class="pagination justify-content-center">
+            <button id="previous" type="button" class="btn btn-lg btn-2" (click)="attPage(-1)">Anterior</button>
+            <button id="next" type="button" class="btn btn-1 btn-lg" (click)="attPage(1)">Próximo</button>
+        </ul>
+    </nav>
+</div>
