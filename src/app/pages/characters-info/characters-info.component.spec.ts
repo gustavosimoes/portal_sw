@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PlanetsComponent } from './planets.component';
+import { CharactersInfoComponent } from './characters-info.component';
 
-describe('PlanetsComponent', () => {
-  let component: PlanetsComponent;
-  let fixture: ComponentFixture<PlanetsComponent>;
+describe('CharactersInfoComponent', () => {
+  let component: CharactersInfoComponent;
+  let fixture: ComponentFixture<CharactersInfoComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PlanetsComponent ]
+      declarations: [ CharactersInfoComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PlanetsComponent);
+    fixture = TestBed.createComponent(CharactersInfoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
