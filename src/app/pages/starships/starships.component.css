@@ -1,0 +1,32 @@
+.container {
+    align-items: center;
+    padding: 5em;
+  }
+  
+  .list-group-item {
+    color: #120e52;
+  }
+  
+  .page-link {
+    background: #120e52;
+    color: white;
+  }
+  
+  .title {
+    display: block;
+    background-color: #fc006b;
+    width: 45%;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    text-align: center;
+  }
+  
+  .btn-1{
+      background-color: #fc006b;
+      color:white;
+  }
+  
+  .btn-2{
+      background-color: #120e52;
+      color:white;
+  }
