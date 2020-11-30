@@ -18,7 +18,7 @@ import { HttpClientModule } from '@angular/common/http';
     CharactersComponent,
     HomeComponent,
     StarshipsComponent,
-    PlanetsComponent
+    CharactersComponent,
   ],
   imports: [
     BrowserModule,
