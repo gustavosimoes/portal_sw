@@ -11,7 +11,7 @@ Execute `npm install` para instalar todas as dependências do projeto.
 
 Execute `ng serve` para iniciar o servidor de desenvolvimento. Navegue até `http://localhost:4200/`. A aplicação será recarregada automaticamente caso haja alteração em qualquer um dos arquivos.
 
-##Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Angular
 - Bootstrap
